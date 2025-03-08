@@ -1,0 +1,28 @@
+/* existing CSS... */
+
+#two-column-tables {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adjust as needed for spacing between the columns */
+}
+
+.table-column {
+  flex: 1;
+  min-width: 0; /* Ensure the columns don't shrink too much */
+}
+
+.table-column table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px; /* Adjust size if needed */
+}
+
+.table-column th, .table-column td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-column th {
+  background-color: #f4f4f4;
+  text-align: left;
+}

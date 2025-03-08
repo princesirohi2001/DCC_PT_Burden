@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .wraper {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  .heading_n_img {
+    width: 100%;
+    height: 18%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .heading_n_img h1 {
+    font-size: 6em;
+    color: white;
+  }
+  
+  .heading_n_img img {
+    height: 100px;
+    width: auto;
+    padding: 10px;
+  }
+  
+  .middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #E0E0E0;
+  }
+  
+  .middle-section img {
+    height: 600px;
+    width: 50%;
+    object-fit: cover;
+    /* display:flex;
+    display-direction:column; */
+  }
+  
+  .btns {
+    margin: 79px;
+    /* display: flex;
+    display-direction: column; */
+  }
+  
+  .admin, .technical, .customer {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Phantomsans', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    margin: 40px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 300ms;
+  }
+  
+  .admin:hover, .technical:hover, .customer:hover {
+    outline: 0;
+  }
+  
+  .admin span, .technical span, .customer span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .admin:hover span, .technical:hover span, .customer:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .btns {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .admin, .technical, .customer {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+  

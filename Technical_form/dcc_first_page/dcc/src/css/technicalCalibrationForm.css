@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the form */
+  .technical-calibration-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start for vertical stacking */
+    height: 100vh; /* Full viewport height */
+    background: #e0e0e0;
+    padding: 20px; /* Add padding for spacing */
+    overflow: auto; /* Allow scrolling if needed */
+  }
+  
+  .technical-calibration-form-wrapper {
+    width: 100%;
+    max-width: 800px; /* Set a maximum width for the form */
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  .technical-calibration-form h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .technical-calibration-form .form-group {
+    margin-bottom: 20px; /* Adjust spacing between form elements */
+  }
+  
+  .technical-calibration-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .technical-calibration-form input,
+  .technical-calibration-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .technical-calibration-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #03e9f4;
+    background: black;
+    border: 1px solid #03e9f4;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .technical-calibration-form button:hover {
+    background: #03e9f4;
+    color: #fff;
+  }
+  
+  /* Additional styles for the uncertainty calculation section */
+  .uncertainty-calculation-form-container {
+    margin-top: 30px;
+  }
+  
+  .uncertainty-calculation-form-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .uncertainty-calculation-form-container input[type="number"],
+  .uncertainty-calculation-form-container input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  .uncertainty-calculation-form-container h3 {
+    margin: 20px 0 10px;
+  }
+  .csv-table-container {
+    margin-top: 20px;
+  }
+  
+  .csv-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .csv-table th, .csv-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .csv-table th {
+    background-color: #f4f4f4;
+  }
+  
+  
